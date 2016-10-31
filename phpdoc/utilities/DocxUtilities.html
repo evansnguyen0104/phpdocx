@@ -1,0 +1,1100 @@
+<html>
+<head>
+<title>Docs For Class DocxUtilities</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">utilities</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                                                                                                                                                                                                                                                                                                                                
+                              		  [ <a href="../classtrees_utilities.html" class="menu">class tree: utilities</a> ]
+		  [ <a href="../elementindex_utilities.html" class="menu">index: utilities</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+	<div id="todolist">
+			<p><a href="../todolist.html">Todo List</a></p>
+	</div>
+      <b>Packages:</b><br />
+              <a href="../li_default.html">default</a><br />
+              <a href="../li_charts.html">charts</a><br />
+              <a href="../li_clean.html">clean</a><br />
+              <a href="../li_config.html">config</a><br />
+              <a href="../li_converters.html">converters</a><br />
+              <a href="../li_create.html">create</a><br />
+              <a href="../li_crypto.html">crypto</a><br />
+              <a href="../li_debug.html">debug</a><br />
+              <a href="../li_elements.html">elements</a><br />
+              <a href="../li_factory.html">factory</a><br />
+              <a href="../li_license.html">license</a><br />
+              <a href="../li_loader.html">loader</a><br />
+              <a href="../li_parser.html">parser</a><br />
+              <a href="../li_transform.html">transform</a><br />
+              <a href="../li_trasform.html">trasform</a><br />
+              <a href="../li_utilities.html">utilities</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../utilities/_DocxUtilities.inc.html">		DocxUtilities.inc
+		</a><br>
+			<a href="../utilities/_MergeDocx.inc.html">		MergeDocx.inc
+		</a><br>
+			<a href="../utilities/_PhpdocxUtilities.inc.html">		PhpdocxUtilities.inc
+		</a><br>
+			<a href="../utilities/_SearchAndReplaceTextWordDocument.inc.html">		SearchAndReplaceTextWordDocument.inc
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../utilities/DocxUtilities.html">DocxUtilities</a><br />
+	    		<a href="../utilities/MergeDocx.html">MergeDocx</a><br />
+	    		<a href="../utilities/PhpdocxUtilities.html">PhpdocxUtilities</a><br />
+	    		<a href="../utilities/SearchAndReplaceTextWordDocument.html">SearchAndReplaceTextWordDocument</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: DocxUtilities</h1>
+Source Location: /DocxUtilities.inc<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre></pre><br />
+<div class="description"></div><br /><br />
+
+
+
+
+
+
+        
+</td>
+
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../utilities/DocxUtilities.html#method__construct">__construct</a></li>
+    <li><a href="../utilities/DocxUtilities.html#method__destruct">__destruct</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodaddWordMLContent">addWordMLContent</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodgetDocxStructuralData">getDocxStructuralData</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodgetTempDir">getTempDir</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodhighlightDocx">highlightDocx</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodmergeDocx">mergeDocx</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodmodifyDocxSettings">modifyDocxSettings</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodparseCheckboxes">parseCheckboxes</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodremoveChapter">removeChapter</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodremoveLineNumbering">removeLineNumbering</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodreplaceChartData">replaceChartData</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodsearchAndHighlight">searchAndHighlight</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodsearchAndRemove">searchAndRemove</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodsearchAndReplace">searchAndReplace</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodsetLineNumbering">setLineNumbering</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methoduniqueDecimal">uniqueDecimal</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodwatermarkDocx">watermarkDocx</a></li>
+    <li><a href="../utilities/DocxUtilities.html#methodwatermarkRemove">watermarkRemove</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+
+
+
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 21]<br />
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="method__construct"></a>
+	<h3>constructor __construct <span class="smalllinenumber">[line 606]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>DocxUtilities __construct(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Class constructor<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="method__destruct"></a>
+	<h3>destructor __destruct <span class="smalllinenumber">[line 612]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void __destruct(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Class destructor<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodaddWordMLContent"></a>
+	<h3>method addWordMLContent <span class="smalllinenumber">[line 624]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void addWordMLContent(
+string
+$document, <a href="../create/CreateDocx.html">CreateDocx</a>
+$docx, <a href="../elements/WordMLFragment.html">WordMLFragment</a>
+$fragment)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This method allows to insert WordML content generated by PHPDocX at the end of an existing Word document<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td>example not found</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$document</b>&nbsp;&nbsp;</td>
+        <td>path to the document</td>
+      </tr>
+          <tr>
+        <td class="type"><a href="../create/CreateDocx.html">CreateDocx</a>&nbsp;&nbsp;</td>
+        <td><b>$docx</b>&nbsp;&nbsp;</td>
+        <td>PHPDocX document object</td>
+      </tr>
+          <tr>
+        <td class="type"><a href="../elements/WordMLFragment.html">WordMLFragment</a>&nbsp;&nbsp;</td>
+        <td><b>$fragment</b>&nbsp;&nbsp;</td>
+        <td>WordML fragment to append to the document</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetDocxStructuralData"></a>
+	<h3>method getDocxStructuralData <span class="smalllinenumber">[line 1265]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>array getDocxStructuralData(
+DOMDocument
+$docDOM, DOMDocument
+$relsDOM, DOMDocument
+$contentTypesDOM, [string
+$relabel = false])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This is the method that extracts all the sttructural info of a given docx<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">DOMDocument&nbsp;&nbsp;</td>
+        <td><b>$docDOM</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">DOMDocument&nbsp;&nbsp;</td>
+        <td><b>$relsDOM</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">DOMDocument&nbsp;&nbsp;</td>
+        <td><b>$contentTypesDOM</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$relabel</b>&nbsp;&nbsp;</td>
+        <td>this variable controls if we have to reset the ids of the relevant DOMDocuments</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetTempDir"></a>
+	<h3>method getTempDir <span class="smalllinenumber">[line 3776]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getTempDir(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		To add support of sys_get_temp_dir for PHP versions under 5.2.1<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodhighlightDocx"></a>
+	<h3>method highlightDocx <span class="smalllinenumber">[line 2381]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void highlightDocx(
+DOMDocument
+$docDOM, string
+$highlightColor)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This is the method that carry out the final highlightiong of the document<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">DOMDocument&nbsp;&nbsp;</td>
+        <td><b>$docDOM</b>&nbsp;&nbsp;</td>
+        <td>the node to be changed</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$highlightColor</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodmergeDocx"></a>
+	<h3>method mergeDocx <span class="smalllinenumber">[line 653]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void mergeDocx(
+string
+$firstDocument, string
+$secondDocument, string
+$finalDocument, 
+$options, array
+$options,)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This is the main class method that does all the needed manipulation to merge<br /><br /><p>two docx documents</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_uild_phpdocx_corporate_examples_easy_MergeDocx.php_6d19d89981ba14fdcfa436f6a95352cc.html">example</a></td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$firstDocument</b>&nbsp;&nbsp;</td>
+        <td>path to the first document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$secondDocument</b>&nbsp;&nbsp;</td>
+        <td>path to the second document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$finalDocument</b>&nbsp;&nbsp;</td>
+        <td>path to the final merged document</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$options,</b>&nbsp;&nbsp;</td>
+        <td>Values:  'enforceSectionPageBreak' (boolean) if true enforces section page breaks even if the section type is continuous  'mergeType' (0,1) that correspond to preserving or not the sections of the merged document respectively,  'numbering' (continue, restart)that allows to restart, for example, the page numbering in the merged document ($secondDocument).  'lineBreaks' (int): insert the number of line breaks indicated between the contents of the merging files</td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$options</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodmodifyDocxSettings"></a>
+	<h3>method modifyDocxSettings <span class="smalllinenumber">[line 1169]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void modifyDocxSettings(
+string
+$source, string
+$target, array
+$settingParameters)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Modifies de general settings of an existing Word document<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td>example not found</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$source</b>&nbsp;&nbsp;</td>
+        <td>path to the original Word document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$target</b>&nbsp;&nbsp;</td>
+        <td>path to the resulting Word document</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$settingParameters</b>&nbsp;&nbsp;</td>
+        <td>settings  Keys and values:  'view' (string): none(default), print, outline, masterPages, normal (draft view), web  'zoom'(mixed): a percentage or none, fullPage (display one full page), bestFit (display page width), textFit (display text width)  'bordersDoNotSurroundHeader' (bool)  'bordersDoNotSurroundFooter' (bool)  'gutterAtTop' (bool)  'hideSpellingErrors' (bool)  'hideGrammaticalErrors' (bool)  'documentType' (string): notSpecified (default), letter, eMail  'trackRevisions' (bool)  'defaultTabStop'(int) in twips (twentieths of a point)  'autoHyphenation' (bool)  'consecutiveHyphenLimit'(int): maximum number of consecutively hyphenated lines  'hyphenationZone' (int) distance in twips (twentieths of a point)  'doNotHyphenateCaps' (bool): do not hyphenate capital letters  'defaultTableStyle' (string): the table style to be used by default  'bookFoldRevPrinting' (bool): reverse book fold printing  'bookFoldPrinting' (bool): book fold printing  'bookFoldPrintingSheets' (int): number of pages per booklet  'doNotShadeFormData' (bool)  'noPunctuationKerning' (bool): never kern punctuation characters  'printTwoOnOne' (bool): print two pages per sheet  'savePreviewPicture' (bool): generate thumbnail for document on save  'updateFields' (bool): automatically recalculate fields on open</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodparseCheckboxes"></a>
+	<h3>method parseCheckboxes <span class="smalllinenumber">[line 2197]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean parseCheckboxes(
+string
+$source, string
+$target, array
+$checkboxes)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Ticks or unticks per order all checkboxes in a docx document<br /><br /><p>Warning: It only parses legacy checkboxes</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td>example not found</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$source</b>&nbsp;&nbsp;</td>
+        <td>path to the docx</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$target</b>&nbsp;&nbsp;</td>
+        <td>path to the resulting parsed docx</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$checkboxes</b>&nbsp;&nbsp;</td>
+        <td>an array of 1's (checked) and 0's (unchecked)</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodremoveChapter"></a>
+	<h3>method removeChapter <span class="smalllinenumber">[line 2254]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void removeChapter(
+string
+$document, string
+$finalDocument, string
+$searchTerm)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Removes a chapter or subchapter from a Word document<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource__phpdocx_corporate_examples_easy_RemoveChapter.php_4f5b7b726051f7014766c05a057875cd.html">example</a></td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$document</b>&nbsp;&nbsp;</td>
+        <td>path to the document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$finalDocument</b>&nbsp;&nbsp;</td>
+        <td>path to the resulting document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$searchTerm</b>&nbsp;&nbsp;</td>
+        <td>string to be searched in the chapter heading</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodremoveLineNumbering"></a>
+	<h3>method removeLineNumbering <span class="smalllinenumber">[line 2336]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void removeLineNumbering(
+string
+$document, string
+$finalDocument)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Removes the line numbering of an existing Word document<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td>example not found</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$document</b>&nbsp;&nbsp;</td>
+        <td>path to the document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$finalDocument</b>&nbsp;&nbsp;</td>
+        <td>path to the resulting document</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodreplaceChartData"></a>
+	<h3>method replaceChartData <span class="smalllinenumber">[line 3681]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean replaceChartData(
+string
+$source, string
+$target, array
+$chartData)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Replaces chart data from an existing Word document<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_orate_examples_intermediate_Chart_radarReplace.php_9a673c69c898eccd32bc3cff5c1a58a4.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_ate_examples_intermediate_Chart_scatterReplace.php_e4b88eb18fee5a231180e9cd41460f86.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_ate_examples_intermediate_Chart_surfaceReplace.php_35a82c10d87801d4b878b5ef157bffe3.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_rporate_examples_intermediate_Chart_pieReplace.php_d8fffeaf59e19dcdaef059bb9710df2a.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_orate_examples_intermediate_Chart_ofPieReplace.php_ea1267965ffcb7ef9c2cdffeb6556c61.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_rate_examples_intermediate_Chart_barColReplace.php_3cf6cc0b6a4f2837388d689475a2ded3.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_rate_examples_intermediate_Chart_bubbleReplace.php_8416de07dcbdea6dd1d4b64bf2d07641.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_te_examples_intermediate_Chart_doughnutReplace.php_fcec13156235e6f5e3d14d72abbabedc.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_porate_examples_intermediate_Chart_lineReplace.php_6f72064ecfb028d92adb2d5b574175c1.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_porate_examples_intermediate_Chart_areaReplace.php_a750355f89181a076a539cff65f1bce3.html">example</a></td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$source</b>&nbsp;&nbsp;</td>
+        <td>path to the docx</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$target</b>&nbsp;&nbsp;</td>
+        <td>path to the resulting docx</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$chartData</b>&nbsp;&nbsp;</td>
+        <td>which key is the number of the chart to replace and the value is an array of chart values</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsearchAndHighlight"></a>
+	<h3>method searchAndHighlight <span class="smalllinenumber">[line 1747]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void searchAndHighlight(
+string
+$document, string
+$finalDocument, string
+$searchTerm, [array
+$options = array('highlightColor' =&gt; 'yellow', 'document' =&gt; true)])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This is the method that does all the needed manipulation to search<br /><br /><p>and higlight text in a Word document</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_ocx_corporate_examples_easy_SearchAndHighlight.php_3d05286cae2b4a3851c74b6a711de125.html">example</a></td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$document</b>&nbsp;&nbsp;</td>
+        <td>path to the document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$finalDocument</b>&nbsp;&nbsp;</td>
+        <td>path to the resulting document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$searchTerm</b>&nbsp;&nbsp;</td>
+        <td>string to be searched and replaced</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$options</b>&nbsp;&nbsp;</td>
+        <td>Values: document (boolean), endnotes (boolean), footnotes (boolean), comments (boolean)  headerAndFooters (boolean)  highlightColor ('black', 'blue', 'cyan', 'green', 'magenta', 'red', 'yellow',  'white', 'darkBlue', 'darkCyan', 'darkGreen', 'darkMagenta', 'darkRed', 'darkYellow', 'darkGray', 'lightGray', 'none')</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsearchAndRemove"></a>
+	<h3>method searchAndRemove <span class="smalllinenumber">[line 2090]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void searchAndRemove(
+string
+$document, string
+$finalDocument, string
+$searchTerm, [array
+$options = array('document' =&gt; true)])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This is the method that does all the needed manipulation to search<br /><br /><p>and remove a paragraph containing a string in a Word document</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_hpdocx_corporate_examples_easy_SearchAndRemove.php_5bfca063ec3adda5adb55c54fee0911d.html">example</a></td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$document</b>&nbsp;&nbsp;</td>
+        <td>path to the document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$finalDocument</b>&nbsp;&nbsp;</td>
+        <td>path to the resulting document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$searchTerm</b>&nbsp;&nbsp;</td>
+        <td>string to be searched and replaced</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$options</b>&nbsp;&nbsp;</td>
+        <td>Values: document (boolean), endnotes (boolean), footnotes (boolean), comments (boolean)  headerAndFooters (boolean)</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsearchAndReplace"></a>
+	<h3>method searchAndReplace <span class="smalllinenumber">[line 1978]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void searchAndReplace(
+string
+$document, string
+$finalDocument, string
+$searchTerm, string
+$replaceTerm, [array
+$options = array('document' =&gt; true)])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This is the method that does all the needed manipulation to search<br /><br /><p>and replace text in a Word document</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_pdocx_corporate_examples_easy_SearchAndReplace.php_7c76e6a661a124b3d3aa5f439a600dd8.html">example</a></td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$document</b>&nbsp;&nbsp;</td>
+        <td>path to the document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$finalDocument</b>&nbsp;&nbsp;</td>
+        <td>path to the resulting document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$searchTerm</b>&nbsp;&nbsp;</td>
+        <td>string to be searched and replaced</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$replaceTerm</b>&nbsp;&nbsp;</td>
+        <td>string with the replacement text</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$options</b>&nbsp;&nbsp;</td>
+        <td>Values: document (boolean), endnotes (boolean), footnotes (boolean), comments (boolean)  headerAndFooters (boolean)</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetLineNumbering"></a>
+	<h3>method setLineNumbering <span class="smalllinenumber">[line 1871]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setLineNumbering(
+string
+$document, string
+$finalDocument, [array
+$options = array()])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Modifies the line numbering configuration<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td>example not found</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$document</b>&nbsp;&nbsp;</td>
+        <td>path to the document</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$finalDocument</b>&nbsp;&nbsp;</td>
+        <td>path to the resulting document</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$options</b>&nbsp;&nbsp;</td>
+        <td>countBy (int) line number increments to display (default value is 1)  start (int) initial line number (default value is 1)  distance (int) separation in twentieths of a point between the number and the text (defaults to auto)  restart (string) could be:       continuous (default value: the numbering does not get restarted anywhere in the document),       newPage (the numbering restarts at the beguinning of every page)       newSection (the numbering restarts at the beguinning of every section)</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methoduniqueDecimal"></a>
+	<h3>method uniqueDecimal <span class="smalllinenumber">[line 3163]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>int uniqueDecimal(
+[
+&$takenIds = array()], [int
+$min = 9999], [int
+$max = 0])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Generates a unique Decimal number<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$min</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$max</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>&$takenIds</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodwatermarkDocx"></a>
+	<h3>method watermarkDocx <span class="smalllinenumber">[line 3205]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean watermarkDocx(
+string
+$source, string
+$target, [string
+$type = 'text'], [array
+$options = array()])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a watermark to an existing Word document<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_corporate_examples_intermediate_WatermarkImage.php_383cec528c52060c52302eb4b496af73.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource__corporate_examples_intermediate_WatermarkText.php_bb020efd20c92735cc2aca2f60d915c1.html">example</a></td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$source</b>&nbsp;&nbsp;</td>
+        <td>path to the docx</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$target</b>&nbsp;&nbsp;</td>
+        <td>path to the resulting watermarked docx</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$type</b>&nbsp;&nbsp;</td>
+        <td>Values: text, image</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$options</b>&nbsp;&nbsp;</td>
+        <td>If type equals image  Values: string 'image' path to the watermark image  string 'height' watermark image height in pixels (optional)  string 'width' watermark image widht in pixels (optional)  boolean 'decolorate' if true (default) decolorates the image  string 'gain' hexadecimal value (optional)  string 'blacklevel' hexadecimal value (optional)  boolean 'remove_previous_watermarks' if true (default value) removes previous existing watermarks (optional)  If type equals text  Values: string 'text' text used for the watermark  string 'text_orientation' (diagonal, horizontal) if not set defaults to diagonal  string 'height' watermark image height in pixels (optional)  string 'width' watermark image widht in pixels (optional)  string 'font' font-family (optional) if not set defaults to Calibri  string 'color' hexadecimal value or color name (optional)  decimal 'opacity' decimal number between 0 and 1(optional), if not set defaults to 0.5  boolean 'remove_previous_watermarks' if true (default value) removes previous existing watermarks (optional)</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodwatermarkRemove"></a>
+	<h3>method watermarkRemove <span class="smalllinenumber">[line 3592]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean watermarkRemove(
+string
+$source, string
+$target)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Removes all watermark from an existing Word document<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_orporate_examples_intermediate_WatermarkRemove.php_60654a0e8f7e5c465a68ee7a4dd72b91.html">example</a></td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$source</b>&nbsp;&nbsp;</td>
+        <td>path to the docx</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$target</b>&nbsp;&nbsp;</td>
+        <td>path to the resulting unwatermarked docx</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Mon, 13 Jan 2014 13:45:43 +0100 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.4</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

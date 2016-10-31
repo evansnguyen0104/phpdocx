@@ -1,0 +1,14 @@
+{
+	"name": "phpdocx/phpdocx",
+	"description": "A fork of the popular PhpDocx library.",
+	"license": "GPL-1.0+",
+	"authors": [
+		{
+			"name": "Kevin Smith",
+			"email": "kevin.smith@ricardo.com"
+		}
+	],
+	"autoload": {
+		"classmap": ["classes/"]
+	}
+}

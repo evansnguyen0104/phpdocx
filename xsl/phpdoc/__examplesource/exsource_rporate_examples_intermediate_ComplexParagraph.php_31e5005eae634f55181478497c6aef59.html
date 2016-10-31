@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>example</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">create</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                                                                                                                        
+                                                                                                                                                                                                                                      		  [ <a href="../classtrees_create.html" class="menu">class tree: create</a> ]
+		  [ <a href="../elementindex_create.html" class="menu">index: create</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+	<div id="todolist">
+			<p><a href="../todolist.html">Todo List</a></p>
+	</div>
+      <b>Packages:</b><br />
+              <a href="../li_default.html">default</a><br />
+              <a href="../li_charts.html">charts</a><br />
+              <a href="../li_clean.html">clean</a><br />
+              <a href="../li_config.html">config</a><br />
+              <a href="../li_converters.html">converters</a><br />
+              <a href="../li_create.html">create</a><br />
+              <a href="../li_crypto.html">crypto</a><br />
+              <a href="../li_debug.html">debug</a><br />
+              <a href="../li_elements.html">elements</a><br />
+              <a href="../li_factory.html">factory</a><br />
+              <a href="../li_license.html">license</a><br />
+              <a href="../li_loader.html">loader</a><br />
+              <a href="../li_parser.html">parser</a><br />
+              <a href="../li_transform.html">transform</a><br />
+              <a href="../li_trasform.html">trasform</a><br />
+              <a href="../li_utilities.html">utilities</a><br />
+            <br /><br />
+                  
+      
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1 align="center">example</h1>
+<div class="php">
+<ol><li><div class="src-line"><span class="src-php">&lt;?php</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-doc">/**</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*&nbsp;Inserts&nbsp;a&nbsp;paragraph&nbsp;with&nbsp;complex&nbsp;formatting,&nbsp;floating&nbsp;images,&nbsp;links,&nbsp;bookmarks,&nbsp;footnotes/endnotes.</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@category</span><span class="src-doc">&nbsp;&nbsp;&nbsp;Phpdocx</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@package</span><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;examples</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@subpackage</span><span class="src-doc">&nbsp;intermediate</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@copyright</span><span class="src-doc">&nbsp;&nbsp;Copyright&nbsp;(c)&nbsp;2009-2013&nbsp;Narcea&nbsp;Producciones&nbsp;Multimedia&nbsp;S.L.</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(http://www.2mdc.com)</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@license</span><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;http://www.phpdocx.com/wp-content/themes/lightword/pro_license.php</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@version</span><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;2012.12.26</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@link</span><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://www.phpdocx.com</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@since</span><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File&nbsp;available&nbsp;since&nbsp;Release&nbsp;2.6</span></div></li>
+<li><div class="src-line"><span class="src-doc">&nbsp;*/</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-inc">require_once&nbsp;</span><span class="src-str">'../../classes/CreateDocx.inc'</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$docx&nbsp;</span>=&nbsp;<span class="src-key">new&nbsp;</span><span class="src-id"><a href="../create/CreateDocx.html">CreateDocx</a></span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$docx</span><span class="src-sym">-&gt;</span><a href="../create/CreateDocx.html#methodaddText">addText</a><span class="src-sym">(</span><span class="src-str">'This&nbsp;is&nbsp;a&nbsp;simple&nbsp;paragraph.'</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$options&nbsp;</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'jc'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'left'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'sz'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'11'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$run_1&nbsp;</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'color'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'ff0000'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'font'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'Arial'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'i'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'single'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'sz'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'11'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'text'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'This&nbsp;is&nbsp;a&nbsp;run&nbsp;of&nbsp;text&nbsp;written&nbsp;in&nbsp;Arial&nbsp;11pt,&nbsp;red&nbsp;and&nbsp;italics&nbsp;to&nbsp;illustrate&nbsp;how&nbsp;easy&nbsp;is&nbsp;to&nbsp;apply&nbsp;formatting&nbsp;to&nbsp;a&nbsp;run&nbsp;of&nbsp;text.&nbsp;'</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><span class="src-var">$break&nbsp;</span>=&nbsp;<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'lineBreak'</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><span class="src-var">$run_2&nbsp;</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'color'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'00ff00'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'font'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'Arial'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'sz'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'12'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'text'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'This&nbsp;is&nbsp;a&nbsp;run&nbsp;of&nbsp;text&nbsp;written&nbsp;in&nbsp;Arial&nbsp;12pt&nbsp;and&nbsp;green&nbsp;color&nbsp;so&nbsp;you&nbsp;may&nbsp;check&nbsp;how&nbsp;properties&nbsp;are&nbsp;inherited&nbsp;or&nbsp;not&nbsp;from&nbsp;the&nbsp;general&nbsp;paragraph&nbsp;options.&nbsp;'</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></li>
+<li><div class="src-line"><span class="src-var">$image_1&nbsp;</span>=&nbsp;<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'image'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'src'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'../files/img/logo_header.jpg'</span><span class="src-sym">,&nbsp;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'border'&nbsp;</span>=&gt;&nbsp;<span class="src-num">1</span><span class="src-sym">,&nbsp;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'borderColor'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'444'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'spacingLeft'&nbsp;</span>=&gt;&nbsp;<span class="src-num">20</span><span class="src-sym">,&nbsp;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'spacingRight'&nbsp;</span>=&gt;&nbsp;<span class="src-num">0</span><span class="src-sym">,&nbsp;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'spacingTop'&nbsp;</span>=&gt;&nbsp;<span class="src-num">10</span><span class="src-sym">,&nbsp;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'spacingBottom'&nbsp;</span>=&gt;&nbsp;<span class="src-num">10</span><span class="src-sym">,&nbsp;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'position'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'right'</span><span class="src-sym">)</span><span class="src-sym">;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></li>
+<li><div class="src-line"><span class="src-var">$run_3&nbsp;</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'sz'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'11'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'text'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'This&nbsp;run&nbsp;of&nbsp;text&nbsp;is&nbsp;written&nbsp;in&nbsp;normal&nbsp;black&nbsp;text&nbsp;with&nbsp;the&nbsp;default&nbsp;document&nbsp;font&nbsp;(usually&nbsp;calibri).</span></div></li>
+<li><div class="src-line"><span class="src-str">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Since&nbsp;PHPDocX&nbsp;v2.6&nbsp;we&nbsp;may&nbsp;insert&nbsp;in&nbsp;a&nbsp;simple&nbsp;manner&nbsp;paragraphs&nbsp;that&nbsp;include&nbsp;complex&nbsp;formatting,</span></div></li>
+<li><div class="src-line"><span class="src-str">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;floating&nbsp;images,&nbsp;links,&nbsp;bookmarks&nbsp;and&nbsp;even&nbsp;footnotes&nbsp;and&nbsp;endnotes&nbsp;in&nbsp;a&nbsp;very&nbsp;simple&nbsp;manner.&nbsp;'</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;&nbsp;</span></div></li>
+<li><div class="src-line"><span class="src-var">$run_4&nbsp;</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'text'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'To&nbsp;include&nbsp;a&nbsp;footnote'</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;&nbsp;</span></div></li>
+<li><div class="src-line"><span class="src-var">$footnote_1&nbsp;</span>=&nbsp;<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'footnote'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'sz'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'10'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'color'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'555'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'You&nbsp;can&nbsp;even&nbsp;style&nbsp;the&nbsp;footnotes&nbsp;content,&nbsp;please,&nbsp;look&nbsp;in&nbsp;the&nbsp;documentation.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></li>
+<li><div class="src-line"><span class="src-var">$run_5&nbsp;</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'text'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'in&nbsp;the&nbsp;middle&nbsp;of&nbsp;the&nbsp;paragraph&nbsp;is&nbsp;as&nbsp;simple&nbsp;as&nbsp;this.'</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></li>
+<li><div class="src-line"><span class="src-var">$link_1&nbsp;</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'link'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'URL'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'http://www.phpdocx.com'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'&nbsp;We&nbsp;also&nbsp;include&nbsp;this&nbsp;link'</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><span class="src-var">$bookmark_1&nbsp;</span>=&nbsp;<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'link'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'markerName'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'personal'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'sz'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'11'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'.&nbsp;And&nbsp;we&nbsp;finish&nbsp;this&nbsp;paragraph&nbsp;bookmarking&nbsp;this&nbsp;run&nbsp;of&nbsp;text.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$parameters&nbsp;</span>=&nbsp;<span class="src-key">array</span><span class="src-sym">(</span><span class="src-var">$run_1</span><span class="src-sym">,&nbsp;</span><span class="src-var">$break</span><span class="src-sym">,&nbsp;</span><span class="src-var">$run_2</span><span class="src-sym">,&nbsp;</span><span class="src-var">$image_1</span><span class="src-sym">,&nbsp;</span><span class="src-var">$run_3</span><span class="src-sym">,&nbsp;</span><span class="src-var">$run_4</span><span class="src-sym">,&nbsp;</span><span class="src-var">$footnote_1</span><span class="src-sym">,&nbsp;</span><span class="src-var">$run_5</span><span class="src-sym">,&nbsp;</span><span class="src-var">$link_1</span><span class="src-sym">,&nbsp;</span><span class="src-var">$bookmark_1</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$docx</span><span class="src-sym">-&gt;</span><a href="../create/CreateDocx.html#methodaddParagraph">addParagraph</a><span class="src-sym">(</span><span class="src-var">$parameters</span><span class="src-sym">,&nbsp;</span><span class="src-var">$options</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$run_1</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'text'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'We&nbsp;may&nbsp;now&nbsp;link&nbsp;internally&nbsp;to&nbsp;the&nbsp;bookmark&nbsp;we&nbsp;have&nbsp;included&nbsp;'</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></li>
+<li><div class="src-line"><span class="src-var">$link_1&nbsp;</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'link'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'URL'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'#personal'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'here'</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><span class="src-var">$run_3</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'type'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'text'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'&nbsp;just&nbsp;by&nbsp;including&nbsp;a&nbsp;URL&nbsp;parameter&nbsp;as&nbsp;it&nbsp;is&nbsp;done&nbsp;usually&nbsp;with&nbsp;anchors.'</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$parameters2&nbsp;</span>=&nbsp;<span class="src-key">array</span><span class="src-sym">(</span><span class="src-var">$run_1</span><span class="src-sym">,&nbsp;</span><span class="src-var">$link_1</span><span class="src-sym">,&nbsp;</span><span class="src-var">$run_3</span><span class="src-sym">)</span><span class="src-sym">;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></li>
+<li><div class="src-line"><span class="src-var">$docx</span><span class="src-sym">-&gt;</span><a href="../create/CreateDocx.html#methodaddParagraph">addParagraph</a><span class="src-sym">(</span><span class="src-var">$parameters2</span><span class="src-sym">,&nbsp;</span><span class="src-var">$options</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$docx</span><span class="src-sym">-&gt;</span><a href="../create/CreateDocx.html#methodaddText">addText</a><span class="src-sym">(</span><span class="src-str">'We&nbsp;are&nbsp;now&nbsp;going&nbsp;to&nbsp;insert&nbsp;the&nbsp;first&nbsp;complex&nbsp;paragraph&nbsp;in&nbsp;a&nbsp;table&nbsp;cell:'</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$options&nbsp;</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'jc'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'left'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'sz'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'11'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'rawWordML'&nbsp;</span>=&gt;&nbsp;<span class="src-id">true</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><span class="src-var">$Pdata&nbsp;</span>=&nbsp;<span class="src-var">$docx</span><span class="src-sym">-&gt;</span><a href="../create/CreateDocx.html#methodaddParagraph">addParagraph</a><span class="src-sym">(</span><span class="src-var">$parameters</span><span class="src-sym">,&nbsp;</span><span class="src-var">$options</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$fragment&nbsp;</span>=&nbsp;<span class="src-var">$docx</span><span class="src-sym">-&gt;</span><a href="../create/CreateDocx.html#methodcreateWordMLFragment">createWordMLFragment</a><span class="src-sym">(</span><span class="src-var">$Pdata</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$valuesTable&nbsp;</span>=&nbsp;<span class="src-key">array</span><span class="src-sym">(</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">array</span><span class="src-sym">(</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-num">11</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-num">12</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">array</span><span class="src-sym">(</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$fragment</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-num">22</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">)</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line"><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$paramsTable&nbsp;</span>=&nbsp;<span class="src-key">array</span><span class="src-sym">(</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'border'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'single'</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-str">'border_sz'&nbsp;</span>=&gt;&nbsp;<span class="src-num">5</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line"><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$test&nbsp;</span>=&nbsp;<span class="src-var">$docx</span><span class="src-sym">-&gt;</span><a href="../create/CreateDocx.html#methodaddTable">addTable</a><span class="src-sym">(</span><span class="src-var">$valuesTable</span><span class="src-sym">,&nbsp;</span><span class="src-var">$paramsTable</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line"><span class="src-var">$docx</span><span class="src-sym">-&gt;</span><a href="../create/CreateDocx.html#methodcreateDocx">createDocx</a><span class="src-sym">(</span><span class="src-str">'../docx/example_complex_paragraph'</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol>
+</div>
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Mon, 13 Jan 2014 13:45:28 +0100 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.4</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

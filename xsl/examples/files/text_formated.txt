@@ -1,0 +1,22 @@
+A normal paragraph.
+A list:
+	One
+	Two
+		Two fourths
+		Two and tree-fourths
+	Tree
+A simple table:
+C_1-1	C_1-2	C_1-3
+C_2-1	C_2-2	C_2-3
+C_3-1	C_3-2	C_3-3
+
+
+	1 Lorem
+	2 Ipsum
+	3 Dolor
+
+
+Encoding text view by list
+	ñáéíóúü
+	&<eme>M</eme>
+	'asdfasdfasdfasd"@*+

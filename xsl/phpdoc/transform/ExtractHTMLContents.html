@@ -1,0 +1,580 @@
+<html>
+<head>
+<title>Docs For Class ExtractHTMLContents</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">transform</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                                                                                                                                                                                                                                                                                        
+                                                                      		  [ <a href="../classtrees_transform.html" class="menu">class tree: transform</a> ]
+		  [ <a href="../elementindex_transform.html" class="menu">index: transform</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+	<div id="todolist">
+			<p><a href="../todolist.html">Todo List</a></p>
+	</div>
+      <b>Packages:</b><br />
+              <a href="../li_default.html">default</a><br />
+              <a href="../li_charts.html">charts</a><br />
+              <a href="../li_clean.html">clean</a><br />
+              <a href="../li_config.html">config</a><br />
+              <a href="../li_converters.html">converters</a><br />
+              <a href="../li_create.html">create</a><br />
+              <a href="../li_crypto.html">crypto</a><br />
+              <a href="../li_debug.html">debug</a><br />
+              <a href="../li_elements.html">elements</a><br />
+              <a href="../li_factory.html">factory</a><br />
+              <a href="../li_license.html">license</a><br />
+              <a href="../li_loader.html">loader</a><br />
+              <a href="../li_parser.html">parser</a><br />
+              <a href="../li_transform.html">transform</a><br />
+              <a href="../li_trasform.html">trasform</a><br />
+              <a href="../li_utilities.html">utilities</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../transform/_Docx2Text.inc.html">		Docx2Text.inc
+		</a><br>
+			<a href="../transform/_ExtractHTMLContents.inc.html">		ExtractHTMLContents.inc
+		</a><br>
+			<a href="../transform/_HTML2DOCX.inc.html">		HTML2DOCX.inc
+		</a><br>
+			<a href="../transform/_HTML2WordML.inc.html">		HTML2WordML.inc
+		</a><br>
+			<a href="../transform/_Text2Docx.inc.html">		Text2Docx.inc
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../transform/Docx2Text.html">Docx2Text</a><br />
+	    		<a href="../transform/ExtractHTMLContents.html">ExtractHTMLContents</a><br />
+	    		<a href="../transform/HTML2DOCX.html">HTML2DOCX</a><br />
+	    		<a href="../transform/HTML2WordML.html">HTML2WordML</a><br />
+	    		<a href="../transform/Text2Docx.html">Text2Docx</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: ExtractHTMLContents</h1>
+Source Location: /ExtractHTMLContents.inc<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre></pre><br />
+<div class="description">Parses and selects automatically the HTML content to be parsed and embedded in a Word document</div><br /><br />
+<h4>Author(s):</h4>
+<ul>
+                                </ul>
+
+
+
+
+    
+          
+              
+
+<h4>Copyright:</h4>
+<ul>
+  <li>Copyright (c) 2009-2011 Narcea Producciones Multimedia S.L.              (http://www.2mdc.com)</li>
+</ul>
+        
+</td>
+
+<td valign="top">
+<h3><a href="#class_vars">Variables</a></h3>
+<ul>
+    <li><a href="../transform/ExtractHTMLContents.html#var$HTMLContent">$HTMLContent</a></li>
+  </ul>
+</td>
+
+<td valign="top">
+<h3><a href="#class_consts">Constants</a></h3>
+<ul>
+    <li><a href="../transform/ExtractHTMLContents.html#constRAW_CHARS_WEIGHT">RAW_CHARS_WEIGHT</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#constRAW_POSITION_WEIGHT">RAW_POSITION_WEIGHT</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#constRAW_UNLINK_CHARS_WEIGHT">RAW_UNLINK_CHARS_WEIGHT</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#constSIBLINGS_WEIGHT">SIBLINGS_WEIGHT</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#constTEXT_CHARS_WEIGHT">TEXT_CHARS_WEIGHT</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#constTEXT_POSITION_WEIGHT">TEXT_POSITION_WEIGHT</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#constTEXT_RATIO_WEIGHT">TEXT_RATIO_WEIGHT</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#constTEXT_UNLINK_CHARS_WEIGHT">TEXT_UNLINK_CHARS_WEIGHT</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#constTEXT_UNLINK_RATIO_WEIGHT">TEXT_UNLINK_RATIO_WEIGHT</a></li>
+  </ul>
+</td>
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../transform/ExtractHTMLContents.html#method__construct">__construct</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#method__destruct">__destruct</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#methodcountFullChars">countFullChars</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#methodcountTextChars">countTextChars</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#methodevaluateNode">evaluateNode</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#methodparseHTML">parseHTML</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#methodpruneLinks">pruneLinks</a></li>
+    <li><a href="../transform/ExtractHTMLContents.html#methodpurgeHTML">purgeHTML</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+
+
+
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 15]<br />
+Parses and selects automatically the HTML content to be parsed and embedded in a Word document<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>version:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>copyright:</b>&nbsp;&nbsp;</td><td>Copyright (c) 2009-2011 Narcea Producciones Multimedia S.L.              (http://www.2mdc.com)</td>
+  </tr>
+  <tr>
+    <td><b>link:</b>&nbsp;&nbsp;</td><td><a href="http://www.phpdocx.com">http://www.phpdocx.com</a></td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>File available since Release ?</td>
+  </tr>
+  <tr>
+    <td><b>license:</b>&nbsp;&nbsp;</td><td><a href="http://www.phpdocx.com/wp-content/themes/lightword/pro_license.php">http://www.phpdocx.com/wp-content/themes/lightword/pro_license.php</a></td>
+  </tr>
+</table>
+</div>
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+<hr />
+<a name="class_vars"></a>
+<h3>Class Variables</h3>
+<div class="tags">
+	<a name="var$HTMLContent"></a>
+	<p></p>
+	<h4>static $HTMLContent = <span class="value"></span></h4>
+	<p>[line 60]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+</div><br />
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="method__construct"></a>
+	<h3>constructor __construct <span class="smalllinenumber">[line 74]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>ExtractHTMLContents __construct(
+
+$html, [
+$threshold = 50])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Class constructor<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$html</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$threshold</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="method__destruct"></a>
+	<h3>destructor __destruct <span class="smalllinenumber">[line 124]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void __destruct(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Class destructor<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodcountFullChars"></a>
+	<h3>method countFullChars <span class="smalllinenumber">[line 268]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>int countFullChars(
+DOMNode
+$node)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Counts the full number of characters inside a HTML node<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">DOMNode&nbsp;&nbsp;</td>
+        <td><b>$node</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodcountTextChars"></a>
+	<h3>method countTextChars <span class="smalllinenumber">[line 254]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>int countTextChars(
+DOMNode
+$node)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Counts the number of text characters inside a HTML node<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">DOMNode&nbsp;&nbsp;</td>
+        <td><b>$node</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodevaluateNode"></a>
+	<h3>method evaluateNode <span class="smalllinenumber">[line 154]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>float evaluateNode(
+$DOMNode
+$node)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This is the method that associates a value between to a HTML node<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">$DOMNode&nbsp;&nbsp;</td>
+        <td><b>$node</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodparseHTML"></a>
+	<h3>method parseHTML <span class="smalllinenumber">[line 132]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void parseHTML(
+string
+$WordML)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This is the main mathod to extract the &quot;valid content&quot;<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$WordML</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodpruneLinks"></a>
+	<h3>method pruneLinks <span class="smalllinenumber">[line 282]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>DOMNode pruneLinks(
+DOMNode
+$node)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Removes the links of a given node<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">DOMNode&nbsp;&nbsp;</td>
+        <td><b>$node</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodpurgeHTML"></a>
+	<h3>method purgeHTML <span class="smalllinenumber">[line 237]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean purgeHTML(
+$DOMNode
+$node)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This is the method that remove &quot;unwanted&quot; div or ul block elements<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">$DOMNode&nbsp;&nbsp;</td>
+        <td><b>$node</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+<hr />
+<a name="class_consts"></a>
+<h3>Class Constants</h3>
+<div class="tags">
+	<a name="constRAW_CHARS_WEIGHT"></a>
+	<p></p>
+	<h4>RAW_CHARS_WEIGHT = <span class="value">&nbsp;0</span></h4>
+	<p>[line 18]</p>
+  
+  <br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="constRAW_POSITION_WEIGHT"></a>
+	<p></p>
+	<h4>RAW_POSITION_WEIGHT = <span class="value">&nbsp;5</span></h4>
+	<p>[line 24]</p>
+  
+  <br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="constRAW_UNLINK_CHARS_WEIGHT"></a>
+	<p></p>
+	<h4>RAW_UNLINK_CHARS_WEIGHT = <span class="value">&nbsp;0</span></h4>
+	<p>[line 19]</p>
+  
+  <br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="constSIBLINGS_WEIGHT"></a>
+	<p></p>
+	<h4>SIBLINGS_WEIGHT = <span class="value">&nbsp;8</span></h4>
+	<p>[line 17]</p>
+  
+  <br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="constTEXT_CHARS_WEIGHT"></a>
+	<p></p>
+	<h4>TEXT_CHARS_WEIGHT = <span class="value">&nbsp;20</span></h4>
+	<p>[line 20]</p>
+  
+  <br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="constTEXT_POSITION_WEIGHT"></a>
+	<p></p>
+	<h4>TEXT_POSITION_WEIGHT = <span class="value">&nbsp;30</span></h4>
+	<p>[line 25]</p>
+  
+  <br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="constTEXT_RATIO_WEIGHT"></a>
+	<p></p>
+	<h4>TEXT_RATIO_WEIGHT = <span class="value">&nbsp;5</span></h4>
+	<p>[line 22]</p>
+  
+  <br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="constTEXT_UNLINK_CHARS_WEIGHT"></a>
+	<p></p>
+	<h4>TEXT_UNLINK_CHARS_WEIGHT = <span class="value">&nbsp;50</span></h4>
+	<p>[line 21]</p>
+  
+  <br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="constTEXT_UNLINK_RATIO_WEIGHT"></a>
+	<p></p>
+	<h4>TEXT_UNLINK_RATIO_WEIGHT = <span class="value">&nbsp;25</span></h4>
+	<p>[line 23]</p>
+  
+  <br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+</div><br />
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Mon, 13 Jan 2014 13:45:44 +0100 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.4</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
